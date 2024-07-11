@@ -1,0 +1,72 @@
+
+
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+.navbar-brand {
+    font-size: 25px;
+    display: flex;
+    height: 60px;
+}
+
+.hero-section {
+    max-width: 40%;
+    padding-top: 200px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+
+.py-4 {
+    background-image: url('/images/logo_dash.jpg');
+    max-width: 100%; /* Occupa l'intera altezza del riquadro */
+    width: auto; /* Occupa l'intera larghezza del riquadro */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    
+}
+
+.footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position:relative;
+    
+}
+
+
+
+.content-section {
+    background-color: #29493a;
+    padding-top: 10px !important;
+    border:5px solid #212529;
+}
+
+.btn {
+    background-color: #212529;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #212529;
+    
+}
+
+.form-check {
+    align-items: center;
+}
+
+
+

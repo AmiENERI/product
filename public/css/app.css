@@ -1,0 +1,134 @@
+/* Add your custom styles here */
+
+body {
+    background-color: #212529;
+}
+
+.navbar-brand {
+    font-family: Dancing Script;
+    letter-spacing: 8px;
+    font-size: 40px;
+    font-style: italic;
+    display: flex;
+    height: 80px;
+    
+}
+
+.navbar {
+    background-color: #29493ae0;
+    border:5px solid #212529;    
+}
+
+
+.form-control {
+    margin-left: 30px;
+}
+
+
+
+.btn {
+    color: #212529;
+    background-color: #fff;
+    border: 2px solid;
+}
+
+.btn:hover {
+    background-color: #212529; /* Green */
+    color: white;
+    border-color: white;
+  }
+
+.hero-section {
+    background-image: url('/images/copertina.jpg');
+    max-width: 100%; /* Occupa l'intera altezza del riquadro */
+    width: auto; /* Occupa l'intera larghezza del riquadro */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    font-family: Dancing Script;
+    margin-top: 100px;
+}
+
+.footer-section {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px 0;
+    
+}
+
+
+/* Aggiungi questa parte nel tuo foglio di stile CSS */
+.film-card {
+    height: 400px; /* Altezza fissa del riquadro delle immagini */
+    
+}
+
+.film-poster-img {
+    object-fit: cover; /* Adatta l'immagine al riquadro senza distorcerla */
+    height: 100%; /* Occupa l'intera altezza del riquadro */
+    width: 100%; /* Occupa l'intera larghezza del riquadro */
+}
+
+.card-body {
+    background-color: #9caba4;
+    height: 30%;
+    text-align: center;
+    
+}
+
+.film-poster {
+    background-color: white;
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.content-section {
+    background-color: #29493a;
+    padding-top: 10px !important;
+    border:5px solid #212529;
+}
+
+.pagination-container {
+    color:white;
+    padding-top: 50px;
+    
+}
+
+.page-link {
+    color: #212529;
+}
+
+.page-link a.active {
+    background-color: #212529;
+    color: #fff;
+}
+
+
+
+.page-link:hover:not(.active) {
+    background-color: #212529;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+.page-item.active .page-link {
+    background-color: #212529; 
+    border: 1px solid white;
+}
+
+.page-item li.active {
+    background-color: #212529;
+    
+}
+
+.page-item:hover:not(.active) {
+    background-color: #212529;
+    
+}
+
